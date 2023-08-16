@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>VS - MERN Authentication</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+				<header id="header"></header>
+
+			<!-- Main -->
+				<div id="main">
+					
+					<!-- Header inside the white page -->		
+					<header id="header">
+						<h1>MERN Authentication</h1>
+					</header>
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="imageProjects2"><img src="images/AuthenticationDemo1.gif" alt="" /></span>
+								<h2>About MERN Authetication</h2>
+								<p>Continuing to use the MERN stack, this project was about creating a sophisticated authentication program 
+									that would talk to the Mongo database, record new users, use salt and hashing techniques to protect the password. 
+									The application then needed to retrieve and unhash passwords upon logging in. The application user randomly generated salt,
+									combined with password. All that is then hashed using SHA-256 algorithm.
+								</p>
+
+								<h2>Criteria</h2>
+								<p><b>Login Page:</b> Username, Password.
+									<br>A Mongo data store which holds the username, unique salt, hashed password+salt, and user type.
+									<br>Password + salt is hashed client side using SHA-256.
+									<br>
+									<br><b>Registration Page:</b> Username, Password (ask twice and confirm the password matches).
+									<br>User type (customer, employee, admin).
+									<br>Detects if the game ends in a tie.
+									<br>Properly switches to the other player when a tile placement completes.
+									<br>Upon completion of the game, add the winning player's name and number of game moves to a high scores table
+									<br>Display the high scores table upon receiving this information
+								</p>
+
+								
+
+								<h2>Code + Screenshots</h2>
+								<span class="imageProjects3"><img src="images/AuthenticationDemoPic3.jpg" alt="" /><img src="images/AuthenticationDemoPic2.jpg" alt="" /></span>
+								<span class="imageProjects3"><img src="images/AuthenticationDemoPic4.jpg" alt="" /><img src="images/AuthenticationDemoPic1.jpg" alt="" /></span>
+								<ul class="icons">
+									<li><a href="https://github.com/VLADisTECH1" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+									<a href="https://github.com/VLADisTECH1">Follow GitHub link to view Code Repo for this project.</a></ul>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="index.html" class="button">Back to Portfolio</a></li>
+									</ul>
+								</footer>
+							</section>
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+						
+					<p class="copyright">Thank you to <a href="https://html5up.net">HTML5 UP</a> for providing a beautiful design template.</p>
+				</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
