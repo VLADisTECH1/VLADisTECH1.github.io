@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #424242;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ed9033 15%, #424242 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ed9033 15%, #424242 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ed9033 15%, #424242 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #ed9033 15%, #424242 85%);
+		background-color: #393939;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ed9033 15%, #393939 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ed9033 15%, #393939 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ed9033 15%, #393939 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #ed9033 15%, #393939 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2459,6 +2459,7 @@ input, select, textarea {
 	display: block;
 	max-height: 700px;
 	max-width: 1100px;
+	border: 2px solid #ed9003;
 }
 
 /* Inside the Read Me Pages - smaller image on the left. */
@@ -2474,7 +2475,7 @@ input, select, textarea {
 	border-radius: 20px;
 	display: block;
 	max-height: 450px;
-	max-width: auto;
+	max-width: 600px;
 	border: 2px solid #ed9003;
 }
 
